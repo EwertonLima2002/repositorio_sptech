@@ -1,14 +1,87 @@
-.tx2 {
-    color:deeppink;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.externa {
-    color: chocolate;
-    font-weight: 500;
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+html {
+    scroll-behavior: smooth;
 }
 
-h1 {
-    font-size: 45px;
+body {
+    font-family: 'Courier New', Geneva, sans-serif;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    background-color: #000000;
+    border-bottom: 2px solid #32b9cd;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    padding: 3px;
+}
+
+a {
+    color: #32b9cd;
+    text-decoration: none;
+}
+
+.pau-azul {
+    color: #32b9cd;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.agora {
+    font-weight: 800;
+}
+
+.banner-projeto {
+    color: #ffffff;
+    height: fit-content;
+    background-image: url(../assets/img/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.banner-projeto .banner-conteudo {
+    display: flex;
+    height: 587px;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-projeto p {
+    width: 280px;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-projeto .banner-conteudo span {
+    font-weight: 800;
 }
