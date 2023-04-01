@@ -8,8 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.orange {
+    color: #E3B062;
+}
+
 body {
-    font-family: 'Courier New', Geneva, sans-serif;
+    font-family: Geneva, sans-serif;
     width: 100%;
 }
 
@@ -31,6 +35,8 @@ nav {
     align-items: center;
     width: 100%;
     padding: 5px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .nav-list {
@@ -43,13 +49,18 @@ nav {
     padding: 3px;
 }
 
+.titulo-projeto a {
+    color:#32b9cd;
+    text-decoration: none;
+}
+
 a {
-    color: #32b9cd;
+    color:#E3B062;
     text-decoration: none;
 }
 
 .pau-azul {
-    color: #32b9cd;
+    color: #E3B062;
     font-weight: bolder;
     padding-left: 10px;
     padding-right: 10px;
